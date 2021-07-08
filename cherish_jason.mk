@@ -49,7 +49,7 @@ PRODUCT_GENERIC_PROPERTIES += \
 CHERISH_BUILD_TYPE := OFFICIAL
 
 CHERISH_WITHGAPPS=true
-
+#CHERISH_NONGAPPS=true
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.sf.blurs_are_expensive=1 \
     ro.surface_flinger.supports_background_blur=1 \
