@@ -44,9 +44,10 @@ BUILD_FINGERPRINT := "Xiaomi/jason/jason:7.1.1/NMF26X/V9.6.2.0.NCHMIFD:user/rele
 
 TARGET_VENDOR := Xiaomi
 PRODUCT_GENERIC_PROPERTIES += \
-    ro.cherish.maintainer=Enweazu Daniel(Danny)
+    ro.cherish.maintainer=Enweazu_Daniel(Danny)
 
 CHERISH_BUILD_TYPE := OFFICIAL
 
 CHERISH_WITHGAPPS=true
 #CHERISH_NONGAPPS=true
+TARGET_BOOT_ANIMATION_RES := 1080
